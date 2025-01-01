@@ -1,0 +1,62 @@
+.cont {
+  position: relative;
+  font-family: "Work Sans", serif;
+}
+
+.header {
+  background: linear-gradient(0deg, #4D4D4D 0%, #6A6F9C 100%);
+  width: 100%;
+  height: 30vh;
+}
+
+.mainCont {
+  display: flex;
+  background-color:#4D4D4D;
+  width: 100%;
+  height: 70vh;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  border-radius: 20px;
+  width: 40rem;
+  height: fit-content;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  transform: translateY(-6rem);
+}
+
+.headerCard {
+display: flex;
+align-items: center;
+padding-bottom: 1rem;
+}
+
+.headerT {
+  font-weight: 700;
+  padding-left: 1rem;
+  font-size: 4em;
+}
+
+.cardInfo {
+  display: flex;
+  flex-direction: column;
+}
+.rowVisible {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+}
+
+#dropdownText {
+  display: none;
+}
